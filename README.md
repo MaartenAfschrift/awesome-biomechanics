@@ -153,7 +153,7 @@
 :dvd: [dataset](https://www.nlm.nih.gov/databases/download/vhp.html) |
 :dvd: [dataset in NIfTI format](https://drive.google.com/drive/folders/1LBBIax6wpWBsiEcyXDrXNqyDSEB9rinO) |
 :computer: [website](https://www.nlm.nih.gov/research/visible/visible_human.html) 
-   
+  
 * **Visible Korean Human**: similar to the Visible Human Project but on Korean cadavers. Segmentated images are provided together with the section images.  
 :page_facing_up: [paper](https://doi.org/10.1109/TMI.2004.842454) |
 :dvd: [dataset](http://vkh.ajou.ac.kr/#vk) |
@@ -781,7 +781,7 @@ neuromusculoskeletal systems. The muscle model includes motor nuclei that accept
 :star: [materials from preprint](https://github.com/stanfordnmbl/mocopaper) |
 :movie_camera: [webinar](https://www.youtube.com/watch?v=IYYZgyE33pU&feature=youtu.be)
     - **Moco simulations at University of Maryland** by Ross Miller (2020). Models and codes from the University of Maryland "Neuromechanics Research Core" for performing optimal control simulations of human movement with OpenSim Moco software: 2D and 3D versions of the Rajagopal et al. (2016) model and code for performing "tracking" and "predictive" simulations of locomotion.</br>
-    :computer: [website](https://simtk.org/projects/umocod)
+      :computer: [website](https://simtk.org/projects/umocod)
 
 * **Rapid 3D muscle-driven predictive simulations** by Antoine Falisse et al. (2019). This framework relies on numerical tools including direct collocation, implicit differential equations, and algorithmic differentiation, and generates predictive simulations of gait in about 35 minutes (single core of a standard laptop computer) with muscle-driven 3D models (29 degrees of freedom and 92 muscles). The code contains a series of example predictive simulations in which we varied objective function, musculoskeletal properties, and gait speed. </br>
 :page_facing_up: [paper](https://doi.org/10.1098/rsif.2019.0402) |
@@ -796,8 +796,7 @@ neuromusculoskeletal systems. The muscle model includes motor nuclei that accept
 * **Muscle Redundancy Solver** by Friedl de Groote et al. (2016). An algorithm to estimate muscle tendon properties and/or compute muscle coordination by tracking experimental data with a musculoskeletal model assuming optimal control to solve for the muscle redundancy. </br>
 :page_facing_up: [paper](https://link.springer.com/article/10.1007/s10439-016-1591-9) |
 :computer: [website](https://simtk.org/projects/optcntrlmuscle) |
-:floppy_disk: [source](https://github.com/KULeuvenNeuromechanics/MuscleRedundancySolver) |
-:floppy_disk: [dev_repo](https://github.com/antoinefalisse/solvemuscleredundancy_dev)
+:floppy_disk: [source](https://github.com/KULeuvenNeuromechanics/MuscleRedundancySolver)
 
 * **opty** by Jason Moore and Ton van den Bogert (2018). Opty utilizes symbolic descriptions of ordinary differential equations expressed with [SymPy](https://www.sympy.org/en/index.html) to form the constraints needed to solve optimal control and parameter identification problems using the direct collocation method and non-linear programming. </br>
 :page_facing_up: [paper](https://joss.theoj.org/papers/10.21105/joss.00300) |
@@ -1137,7 +1136,7 @@ This section needs to be improved.
 
 
 ## Sandbox <!-- omit in toc -->
- 
+
 * **SPIERS (Serial Palaeontological Image Editing and Rendering System)** by Mark Sutton et al. (2012). SPIERS is a package of three programs for the digital visualisation and analysis of tomographic (serial image) datasets, such as those obtained from serial-grinding of specimens, or from CT scanning.</br>
 :computer: [website](https://spiers-software.org)
 [paper](https://palaeo-electronica.org/content/issue-2-2012-technical-articles/226-virtual-palaeontology-toolkit)
@@ -1180,26 +1179,26 @@ https://iandanforth.github.io/pymuscle-docs/
 
 * **PyMUS v2.0** PyMUS v2.0 allows the simulations to be fully operated using a graphical user interface (GUI). The GUI was designed to allow for a generic computational procedure to be performed using modeling and simulation approaches. The Main Window of PyMUS v2.0 consists of one state window and six buttons for controlling simulation of motor unit system. 
 :floppy_disk: [source](https://github.com/NMSL-DGIST/PyMUS)
- 
+
  * **Developing a fatigable muscle model** by Apoorva Rajagopal and Jennifer Yong (2013).</br>
  :floppy_disk: [plugin files](https://simtk.org/frs/?group_id=863)
- 
+
 * **optim2d** by Ton van den Bogert and Anne Koelewijn. Matlab code to do trajectory optimization on a 2D gait model. The musculoskeletal dynamics can be augmented with prosthetic components (above knee, below knee), and the corresponding muscles can be amputated.</br>
  https://github.com/csu-hmc/optim2d
- 
+
  * **UG stats Lectures** by Andy Field (2020): 
  https://www.youtube.com/playlist?list=PLEzw67WWDg81n3N3yfr_MW7f6cEl_XibX&feature=share
- 
+
  * **Hypothesis testing demonstration** by Michael Pyrcz 
-  youtube: https://www.youtube.com/watch?v=bcb3m3LBtRk
-  github: https://github.com/GeostatsGuy/PythonNumericalDemos/blob/master/Interactive_Hypothesis_Testing.ipynb
- 
+    youtube: https://www.youtube.com/watch?v=bcb3m3LBtRk
+    github: https://github.com/GeostatsGuy/PythonNumericalDemos/blob/master/Interactive_Hypothesis_Testing.ipynb
+
  * **Python for Everybody**
  https://www.py4e.com/book
- 
+
  * **ipycanvas** by Martin Renou. Ipycanvas is a lightweight, fast and stable library exposing the browser's Canvas API to IPython. It allows you to draw simple primitives directly from Python like text, lines, polygons, arcs, images etc. This simple toolset allows you to draw literally anything!</br>
  https://github.com/martinRenou/ipycanvas
- 
+
  * FEM libraries
  * **FreeFEM** https://doc.freefem.org/introduction/index.html
  * **Firedrake** https://www.firedrakeproject.org/
@@ -1208,7 +1207,7 @@ https://iandanforth.github.io/pymuscle-docs/
  * **MFEM** https://mfem.org/
  * **GLVis** is a lightweight tool for accurate and flexible finite element visualization. 
  https://glvis.org/
- 
+
  * **Blogging platforms**:
   - https://www.wix.com/
   - https://wordpress.com/
@@ -1222,7 +1221,7 @@ https://iandanforth.github.io/pymuscle-docs/
  * **JointTrack**
  https://sourceforge.net/projects/jointtrack/files/JointTrack/2.0%20%28stable%29/
  https://ufdcimages.uflib.ufl.edu/UF/E0/02/17/84/00001/mu_s.pdf
- 
+
 ## DTI and fibre tractography <!-- omit in toc -->
 * https://github.com/bartbols/muscle_architecture_DTI
 * http://dsi-studio.labsolver.org/
