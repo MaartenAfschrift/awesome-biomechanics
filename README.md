@@ -796,8 +796,7 @@ neuromusculoskeletal systems. The muscle model includes motor nuclei that accept
 * **Muscle Redundancy Solver** by Friedl de Groote et al. (2016). An algorithm to estimate muscle tendon properties and/or compute muscle coordination by tracking experimental data with a musculoskeletal model assuming optimal control to solve for the muscle redundancy. </br>
 :page_facing_up: [paper](https://link.springer.com/article/10.1007/s10439-016-1591-9) |
 :computer: [website](https://simtk.org/projects/optcntrlmuscle) |
-:floppy_disk: [source](https://github.com/KULeuvenNeuromechanics/MuscleRedundancySolver) |
-:floppy_disk: [dev_repo](https://github.com/antoinefalisse/solvemuscleredundancy_dev)
+:floppy_disk: [source](https://github.com/KULeuvenNeuromechanics/MuscleRedundancySolver)
 
 * **opty** by Jason Moore and Ton van den Bogert (2018). Opty utilizes symbolic descriptions of ordinary differential equations expressed with [SymPy](https://www.sympy.org/en/index.html) to form the constraints needed to solve optimal control and parameter identification problems using the direct collocation method and non-linear programming. </br>
 :page_facing_up: [paper](https://joss.theoj.org/papers/10.21105/joss.00300) |
